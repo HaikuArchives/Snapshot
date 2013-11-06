@@ -1,0 +1,31 @@
+
+- make it work from the shell too (implement ArgvReceived)
+- preferences
+- snapshot subfolders   (which can be links)
+- add a snaptshot dialog
+- barberpole window while zipping
+
+Snapshot dialog  (like a Save dialog)
+
+snapshot a file or folder -> 
+
+-------------------------------------------
+[  ]   { filename } snapshot
+--------------------------------------------------------------------------------
+
+Comments	[                                                          ]
+		[                                                          ]
+		[                                                          ]
+
+Save to	[ snapshots folder, sub1, sub2, Other... ]
+
+--------------------------------------------------------------------------------
+
+( - Restore ? )
+
+
+-- Make Snapshot usable as stand-alone app.
+---- spell out the full path of the files
+---- supported types: generic file + folder
+
+Use popen() instead of system().. to catch errors encountered by zip.

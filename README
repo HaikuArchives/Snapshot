@@ -1,0 +1,28 @@
+Snapshot
+
+Ever wished you could go back to earlier versions of a file or folder?
+
+Snapshot lets you take "snapshots" of a folder,
+saving it as a zip file, with a timestamp, to a preset folder.
+
+Snapshots are currently saved to 
+/boot/home/Snapshots
+
+If you prefer another location, you can replace
+this folder with a symlink, or edit the source.
+(MakeDefaultSettings())
+
+I've been meaning to create this app for years, 
+so I've rushed this release to finally "get it out there".
+(no preferences GUI yet, perhaps in 2.0.. see To Do file)
+
+Let me know what you think about it! 
+
+Btw, Snapshot is a Tracker add-on, so you have 
+to put it in /boot/home/config/add-ons/Tracker.
+
+To use it, select a folder, or whatever, in Tracker, 
+and then press Alt-Option-P, or select Snapshot
+from Tracker's right-click menu.
+
+/Jonas Sundström.                 www.kirilla.com
