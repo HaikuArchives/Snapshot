@@ -39,7 +39,7 @@ RDEFS=
 #	specify the resource files to use. 
 #	full path or a relative path to the resource file can be used.
 #	both RDEFS and RSRCS can be defined in the same makefile.
-RSRCS= 
+RSRCS= Snapshot.rsrc
 
 # @<-src@ 
 #%}
